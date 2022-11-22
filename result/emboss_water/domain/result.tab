@@ -1,0 +1,9 @@
+id1	id2	length	identity	similarity	gaps	score
+
+WWC1_Domain3	CDH17_Domain1	31	29.0	48.4	12.9	23.5	
+WWC1_Domain3	CDH17_Domain2	43	20.9	48.8	14.0	25.0	
+WWC1_Domain3	CDH17_Domain3	38	34.2	50.0	18.4	38.0	
+WWC1_Domain3	CDH17_Domain4	46	23.9	47.8		40.0	
+WWC1_Domain3	CDH17_Domain5	15	46.7	53.3		30.0	
+WWC1_Domain3	CDH17_Domain6	22	31.8	50.0	31.8	26.0	
+WWC1_Domain3	CDH17_Domain7	17	47.1	58.8		35.0	

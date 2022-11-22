@@ -1,0 +1,58 @@
+---
+title: "CDH superfamily"
+author: "Tina Luting Chiu"
+date: "11/22/2022"
+output: md_document
+---
+
+### Goal: comparing full length sequences and domain sequences of CDH17 to its superfamily and find the identity in order to find out the non-sepcific binding
+
+#### 1. Download CDH superfamily from NCBI
+![From NCBI](/Users/qiuluting/Desktop/screenshot/截屏2022-11-22 10.55.24.png)
+
+download "caherin_superfamily_homo_sapiens_bar.xlsx"
+
+#### 2. Install packages
+```{r,eval=FALSE}
+library(biomaRt)
+library(UniprotR)
+```
+#### 3. Run Rscript "script.R"
+
+get two fasta as input of following steps: queryDB, targetDB
+
+#### 4-1. Run ncbi-blast+
+
+a. install blast+ via conda
+```{bash,eval=FALSE}
+conda install -c bioconda blast
+```
+b. run command line "cmd.sh"
+```{bash,eval=FALSE}
+sh ./result/ncbi_blast/full/cmd.sh
+sh ./result/ncbi_blast/domain/cmd.sh
+```
+
+#### 4-2. Run mmseqs2
+
+a. run command line "cmd.sh"
+```{bash,eval=FALSE}
+sh ./result/mmseqs2/full/cmd.sh
+sh ./result/mmseqs2/domain/cmd.sh
+```
+
+#### 4-3. Run emboss-water
+
+a. install emboss via conda
+```{bash, eval=FALSE}
+conda install -c bioconda emboss
+```
+b. run command line "cmd.sh"
+```{base, eval=FALSE}
+sh ./result/emboss_water/domain/cmd.sh
+```
+
+
+
+
+

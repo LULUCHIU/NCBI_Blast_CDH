@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "queryDB",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "query.fasta",
+  "number-of-letters": 95041,
+  "number-of-sequences": 200,
+  "last-updated": "2022-11-22T10:03:00",
+  "number-of-volumes": 1,
+  "bytes-total": 152239,
+  "bytes-to-cache": 96938,
+  "files": [
+    "queryDB.pdb",
+    "queryDB.phr",
+    "queryDB.pin",
+    "queryDB.pot",
+    "queryDB.psq",
+    "queryDB.ptf",
+    "queryDB.pto"
+  ]
+}

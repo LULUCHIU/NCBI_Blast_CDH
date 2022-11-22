@@ -1,0 +1,178 @@
+########################################
+# Program: water
+# Rundate: Mon 21 Nov 2022 14:52:40
+# Commandline: water
+#    -asequence query_tmp.fasta
+#    -bsequence target.fasta
+#    -gapopen 10
+#    -gapextend 0.5
+#    -aglobal3
+#    -aglobal_outfile
+#    [-outfile] result
+# Align_format: srspair
+# Report_file: result
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: WWC1_Domain3
+# 2: CDH17_Domain1
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 31
+# Identity:       9/31 (29.0%)
+# Similarity:    15/31 (48.4%)
+# Gaps:           4/31 (12.9%)
+# Score: 23.5
+# 
+#
+#=======================================
+
+WWC1_Domain3      20 ILIIQLSNL----SALLQQQDQKVNIRVAVL     46
+                     |.:|:...|    .||.::.....|::||.|
+CDH17_Domain1     40 IFVIEREGLLYYNRALDRETRSTHNLQVAAL     70
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: WWC1_Domain3
+# 2: CDH17_Domain2
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 43
+# Identity:       9/43 (20.9%)
+# Similarity:    21/43 (48.8%)
+# Gaps:           6/43 (14.0%)
+# Score: 25.0
+# 
+#
+#=======================================
+
+WWC1_Domain3       1 GATRIQIALKYDEKNKQFAILIIQLSNLS---ALLQQQDQKVN     40
+                     |....||.::....|.   ::..|::|.:   :|.::..|::|
+CDH17_Domain2     33 GQLYYQIVIQLPMINN---VMYFQINNKTGAISLTREGSQELN     72
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: WWC1_Domain3
+# 2: CDH17_Domain3
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 38
+# Identity:      13/38 (34.2%)
+# Similarity:    19/38 (50.0%)
+# Gaps:           7/38 (18.4%)
+# Score: 38.0
+# 
+#
+#=======================================
+
+WWC1_Domain3      55 LFRTRPLD--ASDTLVFNEV----FWVSMSYP-ALHQK     85
+                     ::.|:|||  ..|..||..|    :...:||| .:|.|
+CDH17_Domain3     48 IYVTQPLDREEKDAYVFYAVAKDEYGKPLSYPLEIHVK     85
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: WWC1_Domain3
+# 2: CDH17_Domain4
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 46
+# Identity:      11/46 (23.9%)
+# Similarity:    22/46 (47.8%)
+# Gaps:           1/46 ( 2.2%)
+# Score: 40.0
+# 
+#
+#=======================================
+
+WWC1_Domain3      22 IIQLSNLSALLQQQDQKVNIRVAVLPCSESTTCLFRTRPLDASDTL     67
+                     ::||:..| |.:|...:.|:.:.|......|.|..:...:|.:|.:
+CDH17_Domain4     62 MLQLAKQS-LKKQDTPQYNLTIEVSDKDFKTLCFVQINVIDINDQI    106
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: WWC1_Domain3
+# 2: CDH17_Domain5
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 15
+# Identity:       7/15 (46.7%)
+# Similarity:     8/15 (53.3%)
+# Gaps:           0/15 ( 0.0%)
+# Score: 30.0
+# 
+#
+#=======================================
+
+WWC1_Domain3      59 RPLDASDTLVFNEVF     73
+                     :|||.....|.|.||
+CDH17_Domain5     68 KPLDFETAAVSNIVF     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: WWC1_Domain3
+# 2: CDH17_Domain6
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 22
+# Identity:       7/22 (31.8%)
+# Similarity:    11/22 (50.0%)
+# Gaps:           7/22 (31.8%)
+# Score: 26.0
+# 
+#
+#=======================================
+
+WWC1_Domain3      88 RVDVCTTDRSHLEECLGGAQIS    109
+                     ||.|..|:       :||:.:|
+CDH17_Domain6     68 RVQVVATE-------VGGSSLS     82
+
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: WWC1_Domain3
+# 2: CDH17_Domain7
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 17
+# Identity:       8/17 (47.1%)
+# Similarity:    10/17 (58.8%)
+# Gaps:           0/17 ( 0.0%)
+# Score: 35.0
+# 
+#
+#=======================================
+
+WWC1_Domain3      53 TCLFRTRPLDASDTLVF     69
+                     |.||...||.|..:|:|
+CDH17_Domain7      5 TGLFFCHPLSAPGSLIF     21
+
+
+#---------------------------------------
+#---------------------------------------
