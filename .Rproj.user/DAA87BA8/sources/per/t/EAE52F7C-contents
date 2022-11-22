@@ -8,7 +8,7 @@ output: md_document
 ### Goal: comparing full length sequences and domain sequences of CDH17 to its superfamily and find the identity in order to find out the non-sepcific binding
 
 #### 1. Download CDH superfamily from NCBI
-![From NCBI](./pic/ncbi.png)
+![From NCBI](/Users/qiuluting/Desktop/screenshot/截屏2022-11-22 10.55.24.png)
 
 download "caherin_superfamily_homo_sapiens_bar.xlsx"
 
