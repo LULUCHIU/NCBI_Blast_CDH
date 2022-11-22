@@ -2,8 +2,7 @@
 
 #### 1. Download CDH superfamily from NCBI
 
-![From
-NCBI](/Users/qiuluting/Desktop/screenshot/截屏2022-11-22%2010.55.24.png)
+![From NCBI](./pic/ncbi.png)
 
 download “caherin\_superfamily\_homo\_sapiens\_bar.xlsx”
 
@@ -28,8 +27,8 @@ get two fasta as input of following steps: queryDB, targetDB
 
 <!-- -->
 
-    sh ./ncbi_blast/full/cmd.sh
-    sh ./ncbi_blast/domain/cmd.sh
+    sh ./result/ncbi_blast/full/cmd.sh
+    sh ./result/ncbi_blast/domain/cmd.sh
 
 #### 4-2. Run mmseqs2
 
@@ -37,8 +36,8 @@ get two fasta as input of following steps: queryDB, targetDB
 
 <!-- -->
 
-    sh ./mmseqs2/full/cmd.sh
-    sh ./mmseqs2/domain/cmd.sh
+    sh ./result/mmseqs2/full/cmd.sh
+    sh ./result/mmseqs2/domain/cmd.sh
 
 #### 4-3. Run emboss-water
 
@@ -52,4 +51,4 @@ get two fasta as input of following steps: queryDB, targetDB
 
 <!-- -->
 
-    sh ./emboss_water/domain/cmd.sh
+    sh ./result/emboss_water/domain/cmd.sh
